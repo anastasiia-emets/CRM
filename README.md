@@ -10,4 +10,4 @@ Includes:
 - `npx gulp`
 
 # Result
-![alt text](https://github.com/anastasiia-emets/Breeze-task/blob/master/1.0.%20crm.png "crm")
+![alt text](https://github.com/anastasiia-emets/CRM/blob/master/crm.png"crm")
