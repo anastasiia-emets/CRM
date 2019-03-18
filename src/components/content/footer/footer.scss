@@ -1,0 +1,27 @@
+.footer{
+    font-family: $main-font;
+    background-color:  $content-bg-color;
+    padding-top:60px;
+    display:flex;
+&__button{
+    text-decoration: none;
+    color:  #303841;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    height: 24px;
+    text-align: left;
+    padding-right:55px;
+    padding-left:52px;
+    border:0;
+    background-color:  $content-bg-color;
+    margin-bottom:21px; 
+}
+&__underline{
+    background-color:  #442a9d;
+    width: 100px;
+    height: 6px;
+    margin-left:40px;
+    border-radius:5px;   
+}
+}

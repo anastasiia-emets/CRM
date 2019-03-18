@@ -24,6 +24,7 @@
   padding-top: 48px;
   padding-left: 27px;
   padding-bottom: 50px;
+  font-weight: 400;
 }
 
 .navigation__icon-dash {
@@ -32,12 +33,12 @@
 }
 
 .navigation__text {
-  color: #ffffff;
   font-size: 17px;
-  font-weight: 300;
   line-height: 24px;
   text-align: left;
   padding-left: 19px;
+  color: #ffffff;
+  font-weight: 300 !important;
 }
 
 .navigation__icon-reports {
@@ -63,12 +64,6 @@
   margin-top: -5px;
 }
 
-.navigation__element_hover-color {
-  background-color: #442a9d;
-  height: 68px !important;
-  border-left: 5px solid #ffc12d;
-}
-
 .navigation__element {
   height: 50px;
   display: -webkit-box;
@@ -83,6 +78,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #303841;
+  border: 0;
+}
+
+.navigation__element_hover-color {
+  background-color: #442a9d;
+  height: 68px;
+  border-left: 5px solid #ffc12d;
 }
 
 .header {
@@ -106,7 +109,7 @@
   border-bottom: 3px solid rgba(237, 237, 237, 0.4);
 }
 
-.header-item {
+.header__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,7 +124,7 @@
 
 .header__title {
   padding-left: 38px;
-  padding-right: 19px;
+  padding-right: 25px;
   color: #4f4f4f;
   font-size: 16px;
   font-weight: 700;
@@ -150,6 +153,7 @@
   padding-left: 21px;
   font-weight: bold;
   opacity: 0.5;
+  font-weight: 400;
 }
 
 .header__search-icon {
@@ -202,13 +206,19 @@
 }
 
 .header__text {
+  padding-left: 8px;
+  padding-right: 37px;
   color: #4f4f4f;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
-  padding-left: 8px;
-  padding-right: 37px;
+}
+
+.header__button {
+  background-color: white;
+  border: 0;
+  margin-right: 19px;
 }
 
 .header__icon-search {
@@ -231,9 +241,10 @@
           flex-direction: column;
   padding-top: 64px;
   background-color: white;
+  padding-bottom: 30px;
 }
 
-.main-block-item {
+.main-block__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,7 +256,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 31px;
-  margin-left: 4%;
+  margin-left: 37px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -286,7 +297,7 @@
   font-weight: 700;
   line-height: 10px;
   text-align: left;
-  margin-left: 4%;
+  margin-left: 37px;
 }
 
 .main-block__status {
@@ -307,7 +318,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 17px;
+  margin-left: 19px;
 }
 
 .main-block__proffesion {
@@ -317,7 +328,7 @@
   line-height: 10px;
   text-align: left;
   padding-top: 10px;
-  margin-left: 4%;
+  margin-left: 37px;
 }
 
 .main-block__contact-title {
@@ -331,11 +342,11 @@
 
 .main-block__line {
   background-color: #ededed;
-  width: 96%;
+  width: 96.25%;
   height: 2px;
   border: 0;
   margin-top: 15px;
-  margin-left: 4%;
+  margin-left: 3.75%;
 }
 
 .main-block__contact-address {
@@ -352,18 +363,21 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
+  height: 24px;
   text-align: left;
   padding-right: 55px;
   padding-left: 52px;
+  border: 0;
+  background-color: white;
+  margin-bottom: 21px;
 }
 
 .main-block__underline {
   background-color: #442a9d;
   width: 100px;
   height: 6px;
-  margin-left: 36px;
+  margin-left: 40px;
   border-radius: 5px;
-  margin-top: 21px;
 }
 
 .main-block__button {
@@ -379,11 +393,43 @@
   margin-right: 35px;
 }
 
-.main-block-item2 {
+.main-block__item2 {
   margin-top: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.footer {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__button {
+  text-decoration: none;
+  color: #303841;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  height: 24px;
+  text-align: left;
+  padding-right: 55px;
+  padding-left: 52px;
+  border: 0;
+  background-color: white;
+  margin-bottom: 21px;
+}
+
+.footer__underline {
+  background-color: #442a9d;
+  width: 100px;
+  height: 6px;
+  margin-left: 40px;
+  border-radius: 5px;
 }
 
 .content-wrapper {
